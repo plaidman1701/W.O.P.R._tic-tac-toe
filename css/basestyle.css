@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");/* font-family: 'VT323', ; */
+
+body {
+	background-color: black;
+	font: 36px 'VT323';
+	text-transform: uppercase;
+	color: #73C6F0;
+	text-align: center;
+}
+
+div.square {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background-color: black;
+}
+
+div.top {
+	top: 0px;
+}
+
+div.middle {
+	top: 210px;
+	bottom: 210px;
+}
+
+div.bottom {
+	bottom: 0px;
+}
+
+div.left {
+	left: 0px;
+}
+
+div.centre {
+	left: 210px;
+	right: 210px;
+}
+
+div.right {
+	right: 0px;
+}
+
+div#gameboard {
+	position: relative;
+	height: 620px;
+	width: 620px;
+	background-color: #73C6F0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#greeting {
+	margin-top: 20px;
+}
+
+div#maingame {
+	display: none;
+	margin-top: 20px;
+}
+
+div#farewell {
+	display: none;
+	margin-top: 20px;
+}

@@ -1,0 +1,47 @@
+<!--
+	W.O.P.R. tic-tac-toe
+	tic-tac-toe.html
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Tic Tac Toe</title>
+	<meta charset="utf-8">
+	<meta name="description" content="My Tic Tac Toe game">
+	<link href="css/reset.css" media="all" rel="stylesheet" />
+	<link href="css/basestyle.css" media="all" rel="stylesheet" />
+</head>
+<body>
+	<div id="greeting">
+		<p>Greetings Professor Falken.</p>
+		<p>Shall we play a game?</p>
+		<p><button id="lets_play">Continue</button></p>
+	</div>
+	<div id="maingame">
+		<div id="gameboard">
+			<div class="top left square"></div>
+			<div class="top centre square"></div>
+			<div class="top right square"></div>
+			<div class="middle left square"></div>
+			<div class="middle centre square"></div>
+			<div class="middle right square"></div>
+			<div class="bottom left square"></div>
+			<div class="bottom centre square"></div>
+			<div class="bottom right square"></div>
+		</div>
+		<div id="gamestatus">
+			<p>X to move.</p>
+		</div>
+		<div id="continue">
+			<p><button id="btn_01">Play Again</button> <button id="btn_02">Quit</button></p>
+		</div>
+	</div>
+	<div id="farewell">
+		<p>A strange game.</p>
+		<p>The only winning move is not to play.</p>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- jQuery libary -->
+	<script src="scripts/tic-tac-toe.js"></script>
+</body>
+</html>
